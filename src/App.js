@@ -9,11 +9,11 @@ function App() {
  let greenGlow = ''
 
  if (glow == 'red') {
-   redGlow = 'selected'
+   redGlow = 'selectedRed'
  } else if (glow == 'yellow') {
-   yellowGlow = 'selected'
+   yellowGlow = 'selectedYellow'
  } else if (glow == 'green') {
-   greenGlow = 'selected'
+   greenGlow = 'selectedGreen'
  }
 
   return (

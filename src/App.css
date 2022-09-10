@@ -58,6 +58,14 @@
   cursor: pointer;
 }
 
-.selected {
-  box-shadow: #f8ffcc 0px 0px 50px 20px;
+.selectedRed {
+  box-shadow: #ee6666 0px 0px 50px 20px;
+}
+
+.selectedYellow {
+  box-shadow: #eee066 0px 0px 50px 20px;
+}
+
+.selectedGreen {
+  box-shadow: #8fee66 0px 0px 50px 20px;
 }
