@@ -2,32 +2,33 @@ import React, {useState} from 'react';
 import './App.css';
 
 function App() {
-  const [light, setLight] = useState(null)
+ const [glow, setGlow] = useState(null)
 
-  let redClass = '';
-  let yellowClass = '';
-  let greenClass = '';
+ let redGlow = ''
+ let yellowGlow = ''
+ let greenGlow = ''
 
-  if (light == 'red'){
-    redClass = 'selected';
-  } else if (light == 'yellow'){
-    yellowClass = 'selected';
-  } else if (light == 'green'){
-    greenClass = 'selected';
-  }
-  
+ if (glow == 'red') {
+   redGlow = 'selected'
+ } else if (glow == 'yellow') {
+   yellowGlow = 'selected'
+ } else if (glow == 'green') {
+   greenGlow = 'selected'
+ }
 
   return (
     <div className="App">
       <div className='trafficTop'></div>
       <div className='trafficBody'>
-        <div className={'redLight ' + redClass} onClick={() => setLight('red')}></div>
-        <div className={'yellowLight ' + yellowClass} onClick={() => setLight('yellow')}></div>
-        <div className={'greenLight ' + greenClass} onClick={() => setLight('green')}></div>
+        <div className={'redLight ' + redGlow} onClick={() => setGlow('red')}></div>
+        <div className={'yellowLight ' + yellowGlow} onClick={() => setGlow('yellow')}></div>
+        <div className={'greenLight ' + greenGlow} onClick={() => setGlow('green')} ></div>
       </div>
     </div>
   );
 }
 
 export default App;
+
+// on click it needs to turn on the selected glow
 
