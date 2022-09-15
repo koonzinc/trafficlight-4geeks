@@ -4,6 +4,8 @@ import './App.css';
 function App() {
  const [glow, setGlow] = useState(null)
 
+
+ // Try with useEffect for the glow
  let redGlow = ''
  let yellowGlow = ''
  let greenGlow = ''
