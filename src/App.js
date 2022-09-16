@@ -8,7 +8,7 @@ function App() {
  // Try with useEffect for the glow
  let redGlow = ''
  let yellowGlow = ''
- let greenGlof = ''
+ let greenGlow = ''
 
  if (glow == 'red') {
    redGlow = 'selectedRed'
