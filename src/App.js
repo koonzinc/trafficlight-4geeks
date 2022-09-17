@@ -14,7 +14,7 @@ function App() {
    redGlow = 'selectedRed'
  } else if (glow == 'yellow') {
    yellowGlow = 'selectedYellow'
- } else if (glow == 'green') {
+ } else if (glow == 'gree') {
    greenGlow = 'selectedGreen'
  }
 
