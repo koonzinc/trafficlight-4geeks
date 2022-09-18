@@ -11,7 +11,7 @@ function App() {
  let greenGlow = ''
 
  if (glow == 'red') {
-   redGlow = 'selecteded'
+   redGlow = 'selectedRed'
  } else if (glow == 'yellow') {
    yellowGlow = 'selectedYellow'
  } else if (glow == 'green') {
